@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnswerAnalyzerEx.Tests", "AnswerAnalyzerEx.Tests\AnswerAnalyzerEx.Tests.csproj", "{40B61728-4B6F-4F2D-90A5-A77D76280A93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1D0ED01-4F23-4979-A536-06C33040969C}"
+	ProjectSection(SolutionItems) = preProject
+		AnswerAnalyzerEx.vsmdi = AnswerAnalyzerEx.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnswerAnalyzerEx.Messages", "AnswerAnalyzerEx.Messages\AnswerAnalyzerEx.Messages.csproj", "{4E2E9A3D-EC39-44E4-8344-70116987489B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnswerAnalyzerEx.Domain", "AnswerAnalyzerEx.Domain\AnswerAnalyzerEx.Domain.csproj", "{4C0C651A-A2CA-452B-A0D4-81D4FEE09BC4}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AnswerAnalyzerEx.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40B61728-4B6F-4F2D-90A5-A77D76280A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B61728-4B6F-4F2D-90A5-A77D76280A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B61728-4B6F-4F2D-90A5-A77D76280A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B61728-4B6F-4F2D-90A5-A77D76280A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E2E9A3D-EC39-44E4-8344-70116987489B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2E9A3D-EC39-44E4-8344-70116987489B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2E9A3D-EC39-44E4-8344-70116987489B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2E9A3D-EC39-44E4-8344-70116987489B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0C651A-A2CA-452B-A0D4-81D4FEE09BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0C651A-A2CA-452B-A0D4-81D4FEE09BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0C651A-A2CA-452B-A0D4-81D4FEE09BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0C651A-A2CA-452B-A0D4-81D4FEE09BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
